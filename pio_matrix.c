@@ -133,7 +133,7 @@ bool timer_handler(repeating_timer_t *rt) {
 // Função para atualizar a matriz de LEDs com o dígito atual
 void atualiza_matriz(const uint32_t digito[25], PIO pio, uint sm) {
     // Define um brilho fixo (por exemplo, 50% do máximo)
-    const uint8_t brightness = 130; // Pode ajustar este valor entre 0-255
+    const uint8_t brightness = 50; // Pode ajustar este valor entre 0-255
     
     // Percorre a matriz 5x5 e atualiza o estado de cada LED
     for(int y = 0; y < 5; y++) {
